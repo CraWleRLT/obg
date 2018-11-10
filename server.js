@@ -18,7 +18,10 @@ function extend(a,b) {
 
 
 
-var PORT = 3000;
+var PORT = process.env.PORT;
+if (PORT == null || PORT == "") {
+    PORT = 8000;
+}
 
 // Preliminaries
 var express = require('express');

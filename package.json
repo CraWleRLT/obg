@@ -2,6 +2,9 @@
   "name": "obg",
   "version": "0.0.0",
   "description": "web-hanabi",
+  "engines": {
+    "node": "8.12.x"
+  },
   "main": "server.js",
   "dependencies": {
     "express": "^3.5.0",
