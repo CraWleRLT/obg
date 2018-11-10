@@ -1,0 +1,26 @@
+{
+  "name": "obg",
+  "version": "0.0.0",
+  "description": "web-hanabi",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^3.5.0",
+    "socket.io": "^0.9.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CraWleRLT/obg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CraWleRLT/obg/issues"
+  },
+  "homepage": "https://github.com/CraWleRLT/obg#readme"
+}
